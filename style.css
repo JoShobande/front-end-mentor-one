@@ -18,9 +18,85 @@ nav a  img{
 }
 nav button{
     width: 100px;
-    border: 1px solid#f1647d;
+    border: 1px solid hsl(321, 100%, 78%);
     border-radius: 30px;
     height: 30px;
     background: white;
-    color:#f1647d;
+    color: hsl(321, 100%, 78%);
+    
+}
+
+.main-content{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Open Sans', sans-serif;
+    
+   
+}
+.hero__heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;    
+}
+.hero__description{
+    font-weight: 400;
+}
+
+.hero button{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    margin-top: 20px;
+    color: white;
+    box-shadow: 2px 3px 8px 2px grey;
+    
+}
+
+.statistics{
+    margin-top: 100px;
+}
+
+.statistics figure img{
+    width: 100%;  
+}
+
+.statistics_figures img{
+    width: 32px;
+}
+
+.statistics_figures {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.statistics_figures p{
+    font-size: 42px;
+    /* text-align: center; */
+    font-weight: 700;
+}
+.statistics_figures p span{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+@media(min-width: 768px){
+    .main-content{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .hero__description{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .hero__heading{
+        font-size: 46px;
+    }
 }
