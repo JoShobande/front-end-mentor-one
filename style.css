@@ -56,33 +56,35 @@ nav button{
 
 .statistics{
     margin-top: 100px;
+    /* position: relative; */
 }
 
 .statistics figure img{
     width: 100%;  
 }
 
-.statistics_figures img{
-    width: 32px;
-}
+
 
 .statistics_figures {
-    width: 70%;
+    width: max-content;
     margin: 0 auto;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 120px;
+}
+
+.statistics_figures img{
+    width: 32px;
+    margin-right: 80px;
 }
 
 .statistics_figures p{
     font-size: 42px;
-    /* text-align: center; */
     font-weight: 700;
 }
 .statistics_figures p span{
     font-size: 16px;
     font-weight: 400;
+    color:#c1c1c1;
+    display: block;
 }
 
 
@@ -99,4 +101,10 @@ nav button{
     .hero__heading{
         font-size: 46px;
     }
+    .statistics-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+
 }
