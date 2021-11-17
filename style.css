@@ -183,6 +183,7 @@ nav button{
     margin-top: 100px;
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 .ready-to-build-section button {
     margin-top: 20px;
@@ -224,6 +225,17 @@ nav button{
     .statistics figure img {
         width: 70%;
     } 
+    .ready-to-build-section{
+        margin-top: 150px;
+        width: 95%;
+    }
+    .ready-to-build-section h1{
+        font-size: 35px;
+    }
+    .ready-to-build-section button{
+        height: 50px;
+        width: 300px;
+    }
 }
 
 @media(min-width: 1024px){
