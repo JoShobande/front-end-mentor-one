@@ -179,6 +179,23 @@ nav button{
     color: #5c5a5a;
 }
 
+.ready-to-build-section{
+    margin-top: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+.ready-to-build-section button {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    margin-top: 20px;
+    color: white;
+    box-shadow: 2px 3px 8px 2px grey;
+}
+
 
 
 @media(min-width: 768px){
