@@ -220,7 +220,6 @@ nav button{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 'text illustration';  
-        /* padding: 30px;   */
         align-items: center;
     }
     .illustration{
@@ -258,6 +257,25 @@ nav button{
         padding-right: 20px;
     }
     .flowing-conversation-section h1{
+        font-size: 35px;
+    }
+
+    .users-section_content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 'text illustration';  
+        align-items: center;
+    }
+    .users-section_content .illustration{
+        grid-area: illustration;
+    }
+    .users-section_content .text{
+        grid-area: text;
+    }
+    .users-section_content img{
+        width: 500px;
+    }
+    .users-section_content h1{
         font-size: 35px;
     }
     
