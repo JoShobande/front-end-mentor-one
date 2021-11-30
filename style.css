@@ -197,7 +197,125 @@ nav button{
     box-shadow: 2px 3px 8px 2px grey;
 }
 
+footer{
+    margin-top: 150px;
+}
+footer .footer-background{
+    width: 100%;
+}
+.footer-content {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    margin-top: -5px;
+    padding-top: 50px;
+    
+}
+.footer-content h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    /* font-weight: 200; */
+}
+.footer-content p{
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-content .form-section p{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.footer-content input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.footer-content input:focus{
+    outline: none;
+}
+.footer-content .button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.footer-content button{
+    background-color: hsl(322, 100%, 66%);
+    height: 50px;
+    border-radius: 10px;
+    width: 200px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    
+    
+}
+ 
+.footer-content .logo{
+    margin-top: 80px;
+    display: flex;
+    /* justify-items: center; */
+    align-items: center;
+}
+.footer-content .information .logo img{
+    height: 30px;
+}
 
+.footer-content .information .logo p{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5px;
+   
+} 
+.footer-content .info-content{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}  
+
+.footer-content .icons div{
+    margin-top: 30px;
+}
+.footer-content .icons img{
+    width: 20px;
+}
+.footer-content .icons span{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.footer-content .social-media{
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    
+}
+
+.footer-content .social-media_item{
+    width: 50px;
+}
+
+ .social-media img{
+    background: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    
+}
+
+
+
+/* .footer-content  .socail-media_item{
+    background-color: white;
+    width: 32px;
+    border: none;
+    height: max-content;
+} */
 
 @media(min-width: 768px){
     .main-content{
