@@ -16,7 +16,7 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -61,7 +61,9 @@ I started to learn how to use semantic HTML more efficiently rather than 'throwi
 I also never really learnt the BEM method of naming my CSS classes so i started to learn that and be more concious is making sure my CSS classes are named according to the BEM standard and are readable.
 I encountered a chaallenge in one of the sections. i name it statistcs. i had a chanllenge with aliging the little images with the number text below it. i solved it by giving it a margin right. there is probably a clearner solution to this but well, for now, that's the solution i used.
 
-To see how you can add code snippets, see below:
+i made efficient use of grid in this project especially an aspect of grid called grid template areas. a snippet of code is shown below
+
+
 
 ```html
 <!-- In the code below, i used the figure tag to wrap the img tag, before now, i have never used the figure tag so i am proud of my self :) -->
@@ -76,12 +78,26 @@ To see how you can add code snippets, see below:
             <br/>
             <br/>
 
-        </Section> 
+</Section> 
 ```
 ```css
 /* this code was to make a text wraped in a span tag go to the next line. the default display on the span tage is inline.  */
 .statistics_figures p span{
     display: block;
+}
+
+/* the code below shows the use of grid, grid template areas. */
+.users-section_content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 'text illustration';  
+        align-items: center;
+    }
+    .users-section_content .illustration{
+        grid-area: illustration;
+    }
+    .users-section_content .text{
+        grid-area: text;
 }
 
 ```
@@ -91,33 +107,21 @@ const proudOfThisFunc = () => {
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
+Moving on, i will continue learning CSS. i will like to gain more indepth knowledge on CSS.  also drawing curves in CSS without neccesarily having to use an image. i want to learn better alternatives to using images in projects.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+my main resourse was google. different searches accross google about writing semantic html and the likes.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website: still under development :)
+- Frontend Mentor - [@JoShobande](https://www.frontendmentor.io/profile/JoShobande)
+- Twitter - [@Jossiieeeeee](https://www.twitter.com/Jossiieeeeee)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+:)

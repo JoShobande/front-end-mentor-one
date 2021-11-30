@@ -425,5 +425,31 @@ footer .footer-background{
     .users-section_content h1{
         font-size: 35px;
     }
+
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 'info form';  
+        align-items: center;
+        padding-top: 0;
+    }
+    .form-section{
+        grid-area: form;
+    }
+    .form-section p {
+        width: 50%;
+    }
+    .information{
+        grid-area: info;
+        width: 50% ;
+    }
+    .footer-content .button-container{
+        display: inline;
+        margin-left: 30px;
+        
+    }
+    .footer-content input{
+        width: 50%
+    }
     
 }
