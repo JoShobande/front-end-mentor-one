@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container{
     width: 90%;
     margin: 0 auto;
 }
+
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -22,9 +25,15 @@ nav button{
     border-radius: 30px;
     height: 30px;
     background: white;
-    color: hsl(321, 100%, 78%);
-    
+    color: hsl(321, 100%, 78%);    
 }
+.navigation__button:hover{
+    border: 1px solid hsl(319, 50%, 68%);
+    background-color: white;
+    color: 1px solid hsl(319, 50%, 68%);
+}
+
+
 
 .main-content{
     text-align: center;
@@ -293,29 +302,27 @@ footer .footer-background{
 .footer-content .social-media{
     display: flex;
     margin-top: 50px;
-    padding-bottom: 30px;
-    
+    padding-bottom: 30px;    
 }
 
 .footer-content .social-media_item{
     width: 50px;
 }
 
- .social-media img{
+.social-media img{
     background: white;
     border-radius: 10px;
-    border: 1px solid white;
-    
+    border: 1px solid white;    
 }
 
+button{
+    cursor: pointer;
+}
 
+button:hover{
+    background-color: hsl(321, 100%, 78%);
+}
 
-/* .footer-content  .socail-media_item{
-    background-color: white;
-    width: 32px;
-    border: none;
-    height: max-content;
-} */
 
 @media(min-width: 768px){
     .main-content{
