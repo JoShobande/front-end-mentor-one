@@ -243,6 +243,7 @@ footer .footer-background{
 .footer-content input:focus{
     outline: none;
 }
+
 .footer-content .button-container{
     display: flex;
     flex-direction: column;
@@ -257,9 +258,7 @@ footer .footer-background{
     width: 200px;
     border: none;
     color: white;
-    font-weight: bold;
-    
-    
+    font-weight: bold;        
 }
  
 .footer-content .logo{
@@ -312,7 +311,17 @@ footer .footer-background{
 .social-media img{
     background: white;
     border-radius: 10px;
-    border: 1px solid white;    
+    border: 1px solid white;  
+    cursor: pointer;  
+}
+.social-media .twitter-icon img:hover{
+    background-color: #00acee;
+}
+.social-media .facebook-icon img:hover{
+    background-color: #3b5998;
+}
+.social-media .instagram-icon img:hover{
+    background-color: #fb3958;
 }
 
 button{
@@ -321,6 +330,12 @@ button{
 
 button:hover{
     background-color: hsl(321, 100%, 78%);
+}
+
+#form-prompt{
+    color: #993a3a;
+    font-size: 12px;
+    margin-top: 0;
 }
 
 
@@ -452,7 +467,7 @@ button:hover{
     }
     .footer-content .button-container{
         display: inline;
-        margin-left: 30px;
+        margin-left: 20px;
         
     }
     .footer-content input{

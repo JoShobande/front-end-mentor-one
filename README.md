@@ -81,7 +81,7 @@ i made efficient use of grid in this project especially an aspect of grid called
 </Section> 
 ```
 ```css
-/* this code was to make a text wraped in a span tag go to the next line. the default display on the span tage is inline.  */
+/* this code was to make a text wrapped in a span tag go to the next line. the default display on the span tage is inline.  */
 .statistics_figures p span{
     display: block;
 }

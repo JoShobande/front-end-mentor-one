@@ -18,7 +18,7 @@
                     <img src="assets/images/logo.svg" alt="logo"/>               
                </figure>
             </a>
-            <button class="navigation__button">
+            <button class="navigation__button" >
                 Try it free
             </button>
         </nav> 
@@ -109,11 +109,16 @@
                 <p>To receive tips on how to grow your community sign up to our weekly newsletter.
                     We'll never send you spam or pass on your email address
                 </p>
-                <input/>
-                <div class="button-container">
-                    <button>Subscribe</button>
-                </div>   
+                <form name="footer-form" onsubmit="handleSubmit()">
+                    <input name="footer-input" type="email"/>
+                    <div class="button-container">
+                        <button>Subscribe</button>
+                        <p id='form-prompt'></p> 
+                    </div>  
+                      
+                </form>              
             </div>
+            
             <div class="container information">
                 <div class="logo">
                     <img src="assets/images/icon-messages.svg"/>
@@ -128,32 +133,41 @@
                    <div>
                        <img src='assets/icons/icon-email.svg'/>
                        <span> example@company.com</span>
-                   </div>
-                    
+                   </div>           
                </div>
                <div class="social-media">
-                <div class="social-media_item">
-                    <img src="assets/icons/facebook.png"/>
-                </div>
-                
-            
-                <div class="social-media_item">
-                    <img src="assets/icons/instagram.png"/>   
-                </div>
-                
-            
-                <div class="social-media_item">
-                    <img src="assets/icons/twitter.png"/>
-                </div>
-                
-                
-               </div>
-                
-            </div>
-            
+                    <div class="social-media_item facebook-icon">
+                        <img src="assets/icons/facebook.png"/>
+                    </div>
+                    <div class="social-media_item instagram-icon">
+                        <img src="assets/icons/instagram.png"/>   
+                    </div>            
+                    <div class="social-media_item twitter-icon">
+                        <img src="assets/icons/twitter.png"/>
+                    </div>
+               </div>               
+            </div>            
         </div>
     </footer>
    
    
 </body>
+
+<script>
+    
+    function handleSubmit(){   
+        let empt = document.forms["footer-form"]["footer-input"].value;
+        let parElement = document.getElementById("form-prompt");
+        
+        if (empt == "") {
+            event.preventDefault()
+            parElement.innerHTML = ''
+            alert("Please input your email");           
+        }else {
+            event.preventDefault()
+            parElement.innerHTML = 'Check your email please';
+        }        
+    }
+
+</script>
 </html>
