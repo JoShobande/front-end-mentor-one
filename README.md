@@ -50,16 +50,15 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
     - Semantic HTML5 markup
     - Flexbox
+    - Grid
     - Mobile-first workflow
   
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-I started to learn how to use semantic HTML more efficiently rather than 'throwing' div tags everywhere. Searching or researching for the best tags to use is not something i usually do, but in this project, i paid attention to using the best tags for the job and i will start to apply this to other projects i work on moving forward.
-I also never really learnt the BEM method of naming my CSS classes so i started to learn that and be more concious is making sure my CSS classes are named according to the BEM standard and are readable.
-I encountered a chaallenge in one of the sections. i name it statistcs. i had a chanllenge with aliging the little images with the number text below it. i solved it by giving it a margin right. there is probably a clearner solution to this but well, for now, that's the solution i used.
+I learnt how to use semantic HTML more efficiently rather than 'throwing' div tags everywhere. Searching or researching for the best tags to use is not something i usually do, but in this project, i paid attention to using the best tags for the job and i will start to apply this to other projects i work on moving forward.
+I also never really learnt the BEM method of naming my CSS classes so i started learning that and I also made the conscious effort to name my CSS classes according to the BEM standards.
+I encountered a chaallenge in one of the sections named statistcs. i had a chanllenge with aliging the little images with the number text below it. i solved it by giving it a margin right. there is probably a clearner solution to this but well, for now, that's the solution i used.
 
 i made efficient use of grid in this project especially an aspect of grid called grid template areas. a snippet of code is shown below
 
@@ -102,15 +101,11 @@ i made efficient use of grid in this project especially an aspect of grid called
 
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+
 ```
 
 ### Continued development
 Moving on, i will continue learning CSS. i will like to gain more indepth knowledge on CSS.  also drawing curves in CSS without neccesarily having to use an image. i want to learn better alternatives to using images in projects.
-
-
 
 ### Useful resources
 my main resourse was google. different searches accross google about writing semantic html and the likes.
